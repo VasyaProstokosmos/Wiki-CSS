@@ -1,0 +1,138 @@
+/*Данный стиль написан для скина Vector и не работает на Фэндоме*/
+/*Оригинальный стиль взят с мирахезовской Вселенная Ежей вики*/
+/*Идея стиля взята с dev wiki*/
+
+/* ----- Фон вики ----- */
+
+#mw-page-base {
+    background-color: #36393f;
+    background-image: -webkit-gradient(linear,right top,right bottom,color-stop(50%,##006cb0),color-stop(100%,#36393f));
+    background-image: -webkit-linear-gradient(top,#36393f 50%,#36393f 100%);
+    background-image: -moz-linear-gradient(top,#ffffff 50%,#f6f6f6 100%);
+    background-image: linear-gradient(to bottom,#36393f 50%,#36393f 100%);
+    background-position: bottom left;
+    height: 5em;
+}
+
+body {
+    /*background-color: #36393f;*/
+    /*Возможно, вам потребуется загрузить это изображение к себе на вики и поменять сылку, чтобы правило сработало*/
+    background-image: url('https://static.wikia.nocookie.net/discord/images/b/b6/Discord_wallpaper.png/revision/latest');
+    overflow-y: scroll;
+}
+
+/* ----- Секция статьи ----- */
+
+.mw-body {
+    margin-top: -1px;
+    border: 1px solid #4f545c;
+    border-right-width: 0;
+    background-color: #72767d;
+    border-radius: 0 0 5px 5px;
+    color: #eee;
+}
+
+/*Содержание*/
+.toc, .mw-warning, .toccolours {
+    border: 1px solid #36393f;
+    background-color: #4f545c;
+    padding: 5px;
+    font-size: 95%;
+    color: #eee;
+}
+
+.toc .toctitle {
+    direction: ltr;
+    background: #4f545c;
+    border-radius: 2px;
+    color: #eee;
+}
+
+/* ----- Таб-меню ----- */
+
+.vector-menu-tabs .selected {
+    background-image: none;
+    background: #4f545c;
+    border-radius: 8px 8px 0 0;
+    color: #eee;
+}
+
+.vector-menu-tabs, .vector-menu-tabs a, #mw-head .vector-menu-dropdown h3 {
+    background-image: linear-gradient(to bottom,rgba(167,215,249,0) 0,#202225 100%);
+    background-repeat: no-repeat;
+    background-size: 1px 100%;
+    color: #eee;
+}
+
+.vector-menu-tabs li {
+    background-image: linear-gradient(to top,#36393f 0,#4f545c 1px,#4f545c 100%);
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    float: left;
+    display: block;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    white-space: nowrap;
+    border-radius: 8px 8px 0 0;
+    color: #eee;
+}
+
+.vector-menu-tabs .selected {
+    background: #4f545c;
+    color: #eee;
+}
+
+/* ----- pre-секция ----- */
+
+pre, .mw-code {
+    color: #000;
+    background-color: #4f545c !important;
+    border: 1px solid #4f545c !important;
+    border-radius: 5px;
+    padding: 1em;
+    white-space: pre-wrap;
+    overflow-x: hidden;
+    word-wrap: break-word;
+    color: #eee;
+}
+
+/* ----- Логотип ----- */
+
+.mw-wiki-logo {
+    background-image: url(http://localhost/wiki/images/b/bc/Wiki.png) !important;
+}
+/*кнопки*/
+#p-navigation > div > ul a, #p-tb-label > span, #p-tb > div > ul a, #footer-info-lastmod, #footer-places a, #p-personal > div a {
+    color: #eee
+}
+/*Ссылки*/
+a {color: #eee}
+/*Кнопки вверху*/
+#p-namespaces > div > ul a, #p-views > div > ul a, #p-cactions > div > ul a {
+    color: #eee;
+    background-color: #202225;
+
+}
+/*Инфобокс*/
+#mw-content-text > div.mw-parser-output > aside {
+    background-color: #202225;
+}
+#mw-content-text > div.mw-parser-output > aside > h2, #mw-content-text h3 {
+    color: #eee;
+}
+/*Заголовки*/
+h1, h2, h3, h4, h5, h6, h7, h8 {
+     color: #eee
+}
+/*Категории*/
+#catlinks {
+    background-color: #72767d
+}
+/*Содержание*/
+.tocnumber{
+    color: #eee
+}
+/*Футер*/
+#footer-info-copyright {color: #eee}
