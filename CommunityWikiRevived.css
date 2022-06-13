@@ -1,0 +1,90 @@
+/*Имопритуем  CSS OAsisRevived. JS  потребуется импортировать самостоятельно, см. https://dev.fandom.com/wiki/OasisRevived */
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:OasisRevived.css&only=styles";
+/*Позаимствовано из OldFandomColors*/
+body.wiki-ruwikia {
+	--theme-body-background-image: none;
+	--theme-body-dynamic-color-1: #FFF;
+	--theme-body-dynamic-color-1--rgb: 255,255,255;
+	--theme-body-dynamic-color-2: #E6E6E6;
+	--theme-body-dynamic-color-2--rgb: 230,230,230;
+	--theme-page-dynamic-color-1: #0E191A;
+	--theme-page-dynamic-color-1--rgb: 14,25,26;
+	--theme-page-dynamic-color-1--inverted: #FFF;
+	--theme-page-dynamic-color-1--inverted--rgb: 255,255,255;
+	--theme-page-dynamic-color-2: #3A3A3A;
+	--theme-page-dynamic-color-2--rgb: 58,58,58;
+	--theme-sticky-nav-dynamic-color-1: #FFF;
+	--theme-sticky-nav-dynamic-color-1--rgb: 255,255,255;
+	--theme-sticky-nav-dynamic-color-2: #E6E6E6;
+	--theme-sticky-nav-dynamic-color-2--rgb: 230,230,230;
+	--theme-link-dynamic-color-1: #FFF;
+	--theme-link-dynamic-color-1--rgb: 255,255,255;
+	--theme-link-dynamic-color-2: #E6E6E6;
+	--theme-link-dynamic-color-2--rgb: 230,230,230;
+	--theme-accent-dynamic-color-1: #FFF;
+	--theme-accent-dynamic-color-1--rgb: 255,255,255;
+	--theme-accent-dynamic-color-2: #E6E6E6;
+	--theme-accent-dynamic-color-2--rgb: 230,230,230;
+	--theme-body-background-color: #fbf7fb;/*Цвет фона*/
+	--theme-body-background-color--rgb: 227,230,235;
+	--theme-body-text-color: #FFF;
+	--theme-body-text-color--hover: #CCC;
+	--theme-sticky-nav-background-color: #001F22;
+	--theme-sticky-nav-text-color: #FFF;
+	--theme-sticky-nav-text-color--hover: #CCC;
+	--theme-page-background-color: #FFF;
+	--theme-page-background-color--rgb: 255,255,255;
+	--theme-page-background-color--secondary: #F3F4F4;
+	--theme-page-text-color: #3A3A3A;
+	--theme-page-text-color--rgb: 58,58,58;
+	--theme-page-text-color--hover: #6D6D6D;
+	--theme-page-text-mix-color: #9D9D9D;
+	--theme-page-text-mix-color-95: #F5F5F5;
+	--theme-page-accent-mix-color: #AFBDBD;
+	--theme-page-headings-font: 'Rubik';
+	--theme-link-color: #026f98;/*Цвет ссылок*/
+	--theme-link-color--rgb: 8,132,136;
+	--theme-link-color--hover: #022627;
+	--theme-link-label-color: #FFF;
+	--theme-accent-color: #4c5468;
+	--theme-accent-color--rgb: 95,122,123;
+	--theme-accent-color--hover: #93ABAC;
+	--theme-accent-label-color: #FFF;
+	--theme-border-color: #CECECE;
+	--theme-border-color--rgb: 206,206,206;
+	--theme-community-header-color--hover: #CCC;
+	--theme-community-header-color: #FFF;
+    --theme-header-gradient-start: #e3e6eb;
+}
+/*Позаимствовано с английской Элделл скроллс вики*/
+.fandom-community-header {
+	/* Re-adding header image in local navigation as it was removed in the UCX (July 2021) */
+    background-image: url(https://static.wikia.nocookie.net/wikia/images/0/0e/Community-header-background/revision/latest?cb=20170609153828&format=original&path-prefix=ru); /* [[File:Community-header-background]] */
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #e3e6eb;
+    background-size: contain;
+    height: 105px;
+    z-index: 201;
+    position: relative;
+    /*padding:20px 5px 5px 5px;*/
+    color: black;
+}
+.fandom-community-header::before {
+    --theme-header-gradient-start: 200px;
+    --theme-header-gradient-end: 430px;
+    background: linear-gradient(to right,rgba(var(--theme-body-background-color--rgb),.5),rgba(var(--theme-body-background-color--rgb),.5)),linear-gradient(to left,transparent var(--theme-header-gradient-start),var(--theme-body-background-color) var(--theme-header-gradient-end));
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+/*Логотип вики*/
+.fandom-community-header__image {
+    content: url(https://static.wikia.nocookie.net/wikia/images/8/89/Wiki-wordmark.png/revision/latest?cb=20210111082153&format=original&path-prefix=ru);
+    margin-top: 10%;
+    margin-left: 2.5%;
+    
+}
