@@ -1,0 +1,18 @@
+/*Я пытался написать аналог стиля UCX для Космоса, но мне так и не удалось воспроизвести все токости этого стиля*/
+/*Возможного, вам придётся поменять некоторые значения в зависимости от ширины вашего экрана*/
+#mw-content {
+    width: 140%;
+    border-radius: 05px
+}
+#mw-content-wrapper {
+    margin: unset
+}
+#mw-content-wrapper > header {
+    width: 146.75%;
+}
+#cosmos-footer {
+    width: 146.75%;
+}
+#mw-content-wrapper > header:before {
+    background-image: var(--theme-body-image)
+}
