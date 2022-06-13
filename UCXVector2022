@@ -1,0 +1,12 @@
+/*Данный стиль может работать некорректно на некоторых (зачёркнуто) то сеть многих страницах и проектах.*/
+#content {
+    width: 150%;
+}
+.mw-content-container {
+    margin-left: unset;
+    position: relative;
+    right: 300px;
+}
+.mw-table-of-contents-container.mw-sticky-header-element, .mw-sidebar {
+    display: none
+}
