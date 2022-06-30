@@ -1,0 +1,153 @@
+/*Оригинальные стили взяты с dev wiki и у самого Фэндома*/
+:root {
+	--gamepedia-text-color: #FFFFFF;
+	--gamepedia-text-color--rgb: 255,255,255;
+	--gamepedia-accent: #F58120;
+	--gamepedia-accent--rgb: 245,129,32;
+	--gamepedia-placeholder: #CCCCCC;
+	--gamepedia-background: #202020;
+	--gamepedia-background-2: #404040;
+	--gamepedia-background-3: #2C2C2C;
+}
+:root {
+--theme-body-text-color: #e6e6e6;
+    --theme-body-text-color--rgb: 230,230,230;
+    --theme-page-background-color: #1e0c1b;
+    --theme-page-background-color--rgb: 30,12,27;
+    --theme-page-background-color--secondary: #291927;
+    --theme-page-text-color: #e6e6e6;
+    --theme-page-text-color--rgb: 230,230,230;
+    --theme-page-text-color--hover: #b3b3b3;
+    --theme-link-color: var(--gamepedia-accent);;
+    --theme-link-color--rgb: 255,197,0;
+    --theme-link-color--hover: #c6681b;
+    --theme-link-label-color: #1e0c1b;
+    --theme-accent-color: var(--gamepedia-accent);
+    --theme-accent-color--rgb: 255,197,0;
+    --theme-accent-color--hover: #c6681b;
+    --theme-accent-label-color: #1e0c1b;
+    --theme-border-color: var(--gamepedia-accent);
+    --theme-border-color--rgb: 89,83,88;
+    --theme-page-text-mix-color: #827981;
+    --theme-page-accent-mix-color: #c6681b;
+    --theme-alert-color: #bf0017;
+    --theme-alert-color--rgb: 191,0,23;
+    --theme-alert-label: #fff;
+    --theme-alert-color--hover: #59000b;
+    --theme-warning-color: #cf721c;
+    --theme-success-color: #0c742f;
+    --theme-success-color--rgb: 12,116,47;
+    --theme-success-label: #fff;
+    --theme-message-color: #753369;
+    --theme-table-background-color: #1e0c1b;
+    --theme-table-header-color: #291927;
+    --fandommobile-toc-close-icon-color: #d6d0d5;
+    --fandommobile-section-edit-icon-color: hsla(0,0%,90%,.5);
+    --fandommobile-box-shadow: none;
+}
+:root {
+    --fandom-global-nav-background-color: var(--gamepedia-background);
+    --fandom-global-nav-text-color: #fff;
+    --fandom-global-nav-link-color: var(--gamepedia-accent);
+    --fandom-global-nav-link-color--hover: #997600;
+    --fandom-global-nav-icon-color: var(--gamepedia-background);
+    --fandom-global-nav-icon-background-color: var(--gamepedia-background);
+    --fandom-global-nav-icon-background-color--hover: #595358;
+    --fandom-global-nav-icon-background-color--active: #595358;
+    --fandom-global-nav-icon-border-color: #f5f3f5;
+    --fandom-global-nav-icon-border-color--hover: hsla(0,0%,100%,.5);
+    --fandom-global-nav-icon-border-color--active: #f5f3f5;
+    --fandom-global-nav-bottom-icon-color: #f5f3f5;
+    --fandom-global-nav-counter-background-color: var(--gamepedia-accent);
+    --fandom-global-nav-counter-label-color: var(--gamepedia-background);
+    --fandom-global-nav-mobile-logo: url(https://static.wikia.nocookie.net/central/images/7/74/Gamepedia_Text_Logo_White.svg);
+    --fandom-global-nav-search-active-link-background-color: #595358;
+    --fandom-global-nav-search-active-link-border-color: #fff;
+    --fandom-global-nav-logo-separator-color: #d6d0d5;
+    --fandom-global-nav-separator-color: #595358;
+    --fandom-global-nav-gp-legacy-logo: url(https://dev.fandom.com/resources-ucp/dist/svg/wds-brand-gamepedia-badge-orange.svg);
+    --fandom-global-nav-border-top-width: 0;
+}
+:root {
+    --fandom-text-color: var(--gamepedia-text-color) !important;
+    --fandom-text-color--rgb: var(--gamepedia-text-color--rgb);
+    --fandom-text-color--hover: #c7bbc7;
+    --fandom-link-color: var(--gamepedia-accent) !important;
+    --fandom-link-color--hover: #c6681b;
+    --fandom-link-color--rgb: 255,197,0;
+    --fandom-link-color--fadeout: #c6681b;
+    --fandom-accent-color: var(--gamepedia-accent) !important;
+    --fandom-accent-color--hover: #c6681b;
+    --fandom-accent-label-color: #291927;
+    --fandom-border-color: #595358;
+    --fandom-secondary-button-color: #f5f3f5;
+    --fandom-secondary-button-color--hover: #c7bbc7;
+    --fandom-dropdown-background-color: var(--gamepedia-background);
+    --fandom-notifications-background-color: transparent !important;
+    --fandom-notifications-read-card-background-color: var(--gamepedia-background);
+    --fandom-notifications-unread-card-background-color: var(--gamepedia-background);
+    --fandom-notifications-footer-text-color: var(--fandom-text-color);
+    --fandom-banner-notification-background-color: #1e0c1b;
+    --fandom-banner-notifications-close-icon: #f5f3f5;
+    --fandom-mobile-body-gradient: var(--gamepedia-background);
+}
+body {
+    word-wrap: break-word;
+    background-color: var(--gamepedia-background-3);
+    background-image: var(--gamepedia-background);
+    color: var(--theme-page-text-color);
+}
+/*Фикс для UCP 2.0*/
+.mw-changeslist-legend.mw-collapsible.mw-made-collapsible {
+    background: black;
+}
+/*Фикс для мобилного лога*/
+.mobile-global-navigation__logo {
+    background-size: 100%;
+}
+/*Футер*/
+.global-footer {
+	background-color: var(--gamepedia-background);
+	color: var(--gamepedia-text-color);
+}
+.global-footer h2.global-footer__header a {
+	position: relative;
+	display: block;
+}
+.global-footer h2.global-footer__header svg {
+	visibility: hidden;
+}
+.global-footer h2.global-footer__header > a[data-tracking-label="logo"] {
+	background: url("https://static.wikia.nocookie.net/central/images/0/08/Gamepedia_logo_dark.svg");
+	background-size: 210px;
+	background-repeat: no-repeat;
+}
+.global-footer__link,
+.global-footer__link:active,
+.global-footer__link:focus,
+.global-footer__link:visited {
+	color: var(--gamepedia-accent);
+}
+/** Fandom Store App Logos **/
+.global-footer__section-fandom-stores .global-footer__icon,
+.global-footer__section-fandom-stores::before {
+	border-radius: 6px;
+}
+.global-footer__section-fandom-stores svg.global-footer__icon {
+	display: none;
+}
+.global-footer__section-fandom-stores::before {
+	content: "";
+	margin: 0 18px 0 0;
+	background: url("https://static.wikia.nocookie.net/central/images/7/72/Curse_LLC_2016_App_Logo.png") no-repeat center;
+	background-size: 80px;
+	min-height: 80px;
+	min-width: 80px;
+}
+.global-footer__section-social-links .wds-icon:hover {
+	color: var(--gamepedia-accent);
+}
+/*Кнопка править*/
+.wiki-page-header__edit-link {
+    color: var(--gamepedia-accent);
+}
