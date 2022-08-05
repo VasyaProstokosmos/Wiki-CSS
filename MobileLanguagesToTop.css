@@ -1,0 +1,17 @@
+/*Данный стиль предназначен для скрипта с аналогичным названием*/
+#fandom-mobile-wrapper > div.wiki-page-header > div > ul > ul > li > a,
+#fandom-mobile-wrapper > div.wiki-page-header > div > div > span
+{
+    position: relative;
+    bottom: 30px; right: 120px;
+}
+#fandom-mobile-wrapper > div.wiki-page-header > div > div > span {
+    content: url(https://static.wikia.nocookie.net/test/images/6/60/Multi-translate-1710742-1451883.png/revision/latest?cb=20220805172543&format=original&path-prefix=ru);
+    width: 40px;
+}
+#fandom-mobile-wrapper > div.wiki-page-header > div > div > span {
+    background-size: 10px;
+}
+#fandom-mobile-wrapper > div.wiki-page-header > div > div > svg > use {
+    display: none;
+}
