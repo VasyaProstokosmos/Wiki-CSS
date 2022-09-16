@@ -1,0 +1,60 @@
+/*Варя*/
+.page-Варвара_Краса_—_Длинная_Коса .pageBanner {
+    content: url(https://static.wikia.nocookie.net/tsarevny/images/f/f3/D2dfV_WXQAENlka.jpg/revision/latest?cb=20200919122036&format=original&path-prefix=ru);
+    width: 109%;
+    margin-left: -37px;
+    margin-top: -24px;
+    height: 40vh;
+    object-fit: cover;
+}
+.page-Варвара_Краса_—_Длинная_Коса.is-content-expanded .pageBanner {
+    width: 105.4%;
+}
+/*Соня*/
+.page-Соня_Спящая_Царевна .pageBanner {
+    content: url(https://static.wikia.nocookie.net/tsarevny/images/4/47/СоняБаннер.jpg/revision/latest?cb=20220915175211&format=original&path-prefix=ru);
+    width: 109%;
+    margin-left: -37px;
+    margin-top: -24px;
+    height: 40vh;
+    object-fit: cover;
+}
+.page-Соня_Спящая_Царевна.is-content-expanded .pageBanner {
+    width: 105.4%;
+}
+/*Алёнка*/
+.page-Царевна_Елена_Прекрасная .pageBanner {
+    content: url(https://static.wikia.nocookie.net/tsarevny/images/4/45/АлёнкаБаннер.webp/revision/latest?cb=20220915175510&format=original&path-prefix=ru);
+    width: 109%;
+    margin-left: -37px;
+    margin-top: -24px;
+    height: 40vh;
+    object-fit: cover;
+}
+.page-Царевна_Елена_Прекрасная.is-content-expanded .pageBanner {
+    width: 105.4%;
+}
+/*Василиса*/
+.page-Василиса_—_Царевна_Лягушка .pageBanner {
+    content: url(https://static.wikia.nocookie.net/tsarevny/images/3/3f/ВасилисаБаннер.png/revision/latest?cb=20220915175738&format=original&path-prefix=ru);
+    width: 109%;
+    margin-left: -37px;
+    margin-top: -24px;
+    height: 40vh;
+    object-fit: cover;
+}
+.page-Василиса_—_Царевна_Лягушка.is-content-expanded .pageBanner {
+    width: 105.4%;
+}
+/*Даша*/
+.page-Дарья_—_Царевна_Несмеяна .pageBanner {
+    content: url(https://static.wikia.nocookie.net/tsarevny/images/e/e7/ДашаБаннер.jpg/revision/latest?cb=20220915175953&format=original&path-prefix=ru);
+    width: 109%;
+    margin-left: -37px;
+    margin-top: -24px;
+    height: 40vh;
+    object-fit: cover;
+}
+.page-Дарья_—_Царевна_Несмеяна.is-content-expanded .pageBanner {
+    width: 105.4%;
+}
