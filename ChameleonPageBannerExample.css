@@ -1,0 +1,6 @@
+.page-Заглавная_страница .pageBanner {
+    content: url(http://localhost/mediawiki-1.39.2/images/5/5f/3AiL3yN.png);
+    width: 100vw;
+    height: 40vh;
+    object-fit: cover;
+}
