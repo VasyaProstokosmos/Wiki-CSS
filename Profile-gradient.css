@@ -71,3 +71,6 @@ ul.user-identity-social > li > div > svg {
     background-color: #162328 !important;
     border:1px solid #454f53;
 }*/
+#userProfileApp .user-identity-bio.overflow:before {
+    background: linear-gradient(#0000 10px,var(--user-identity-box__info-background));
+}
