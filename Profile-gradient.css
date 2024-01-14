@@ -1,10 +1,29 @@
+.theme-fandomdesktop-dark {
+    --gradient-1: #6966c4;
+    --gradient-2: #7e0a4e;
+    --garadient-3: #2c2246;
+    --gradient-4: #320520;
+    --user-identity-box__info-background: #190d1f;
+}
+.theme-fandomdesktop-light {
+    --gradient-1: #c7c5f9;
+    --gradient-2: #e6aacd;
+    --garadient-3: #b09ae3;
+    --gradient-4: #d993bd;
+     --user-identity-box__info-background: #dfb7f2;
+}
+/*:root{
+    --garadient-3: var(--theme-page-accent-mix-color);
+    --dd: var(--theme-accent-color--hover);
+}*/
+
 .user-identity-box__info {
-    background-color: #190d1f;
+    background-color: var(--user-identity-box__info-background);
     border-radius: 12px;
     padding: 10px;
 }
 
-.user-identity-bio {
+/*.user-identity-bio {
 color: #fff;
 }
 .user-identity-header__attributes h1 {
@@ -25,24 +44,30 @@ ul.user-identity-stats > li > aul.user-identity-stats > li > a > strong{
 ul.user-identity-social > li > div > svg {
     color: #fff;
 }
-.user-identity-social__icon svg{
+.user-identity-social__icon svg,
+.user-identity-header__button{
      color: #fff;
-}
+}*/
 .user-identity-header__tag {
-    background-color: #162328 !important;
-    border:1px solid #454f53;
+    background-color: transparent !important;
+    border:1px solid var(--theme-page-text-color);
+}
+.user-identity-header__button {
+    --theme-accent-color: var(--theme-page-text-color);
+    --theme-accent-color--hover: var(--theme-page-text-color);
 }
 .user-identity-box__wrapper {
-    background:-webkit-linear-gradient(350deg, #2c2246, #320520);
+    --theme-link-color: var(--theme-page-text-color);
+    background:-webkit-linear-gradient(350deg, var(--garadient-3), var(--gradient-4));
     padding: 20px;
     padding-bottom: 1px;
     border:4px solid;
-    border-image: linear-gradient(#6966c4 , #7e0a4e);
-    -moz-border-image: -moz-linear-gradient(#6966c4 , #7e0a4e);
-    -webkit-border-image: -webkit-linear-gradient(#6966c4 , #7e0a4e);
+    border-image: linear-gradient(var(--gradient-1), var(--gradient-2));
+    -moz-border-image: -moz-linear-gradient(var(--gradient-1), var(--gradient-2));
+    -webkit-border-image: -webkit-linear-gradient(var(--gradient-1), var(--gradient-2));
     border-image-slice: 1;
 }
-.user-identity-header__button {
+/*.user-identity-header__button {
     background-color: #162328 !important;
     border:1px solid #454f53;
-}
+}*/
