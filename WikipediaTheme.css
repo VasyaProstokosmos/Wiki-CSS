@@ -55,7 +55,7 @@ body {
 }
 /*Глобнавменю*/
 .global-navigation__label {
-    color: #0645ad ;
+    color: #0645ad;
 }
 .global-navigation__nav .wds-icon {
     color: #fa005a;
@@ -83,10 +83,10 @@ body {
 	color: #000000 !important;
 }
 .global-footer__bottom-bar a:hover {
-	color: #000000 !important
+	color: #000000 !important;
 }
 .global-footer__bottom-bar-row.wds-has-border-top {
-	border-top: 1px solid #656E78 !important
+	border-top: 1px solid #656E78 !important;
 }
 .global-footer__link,.global-footer__link:active, .global-footer__link:focus, .global-footer__link:visited {
 	color: #000000 !important;
@@ -97,7 +97,7 @@ body {
 .global-footer__section.wds-is-follow-us .global-footer__link-image {
 	color: #000000 !important;
 	opacity: .3;
-	transition: opacity .3s
+	transition: opacity .3s;
 }
 .global-footer__section.wds-is-fandom-stores::after {
 	border-bottom: 1px solid #5F7A7B !important;
@@ -118,9 +118,10 @@ body > div.main-container > footer > div.global-footer__content > div:nth-child(
     content: url(https://upload.wikimedia.org/wikipedia/commons/4/4e/Wikipedia_mark_mobile.png);
 }
 body > div.main-container > footer > div.global-footer__bottom > div:nth-child(2) > a {
-    color: #F3F4F4
+    color: #F3F4F4;
 }
-.global-footer__link-icon {color: black !important
+.global-footer__link-icon {
+	color: black !important;
 }
 /*Совместимость c HydraRevived*/
 .hydra-revived-ready .global-navigation__logo {
@@ -134,5 +135,5 @@ body > div.main-container > footer > div.global-footer__bottom > div:nth-child(2
 }
 /*Фикс дискорда в профиле*/
 #userProfileApp > div > section > div.user-identity-box__info > ul.user-identity-social > li > div > div {
-	color: black
+	color: black;
 }
