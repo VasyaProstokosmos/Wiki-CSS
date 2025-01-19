@@ -105,7 +105,7 @@ pre, .mw-code {
 }
 /*кнопки*/
 #p-navigation > div > ul a, #p-tb-label > span, #p-tb > div > ul a, #footer-info-lastmod, #footer-places a, #p-personal > div a {
-    color: #eee
+    color: #eee;
 }
 /*Ссылки*/
 a {color: #eee}
@@ -124,15 +124,17 @@ a {color: #eee}
 }
 /*Заголовки*/
 h1, h2, h3, h4, h5, h6, h7, h8 {
-     color: #eee
+     color: #eee;
 }
 /*Категории*/
 #catlinks {
-    background-color: #72767d
+    background-color: #72767d;
 }
 /*Содержание*/
 .tocnumber{
-    color: #eee
+    color: #eee;
 }
 /*Футер*/
-#footer-info-copyright {color: #eee}
+#footer-info-copyright {
+    color: #eee;
+}
