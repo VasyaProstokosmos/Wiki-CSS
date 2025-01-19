@@ -8,5 +8,5 @@
     right: 300px;
 }
 .mw-table-of-contents-container.mw-sticky-header-element, .mw-sidebar {
-    display: none
+    display: none;
 }
